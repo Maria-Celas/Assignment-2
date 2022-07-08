@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  background-image: url("/images/Group\ 233.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Poppins, sans-serif;
+}
+
+.flex-container {
+  margin: 0 auto;
+  margin-top: 45px;
+  width: 62%;
+  height: 567px;
+  background: #ffffff;
+  overflow: hidden;
+  display: flex;
+  flex: 1 1 100%;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+@media (max-width: 980px) {
+  .flex-container {
+    flex-flow: wrap;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+.flex-container div {
+  height: auto;
+}
+
+.flex-container .banner {
+  background-image: url("/images/Group\ 232.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  overflow: hidden;
+}
+
+.flex-container .banner .container1 {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.flex-container .banner .container1 .p1 {
+  color: white;
+  top: 348px;
+  left: 101px;
+  font-weight: 900;
+  font-size: 44px;
+  margin-top: 208px;
+}
+.flex-container .banner .container1 .p2 {
+  color: white;
+  font-size: 28px;
+  margin-top: -52px;
+}
+.flex-container .banner .container1 .aspire-logo {
+  margin-top: 72px;
+}
+
+.flex-container .container2 {
+  padding: 74px;
+  overflow: hidden;
+  padding-top: 50px;
+  width: 35%;
+}
+@media (max-width: 980px) {
+  .flex-container .container2 {
+    width: 100%;
+  }
+}
+
+.flex-container .container2 .user-image {
+  width: 180px;
+  height: 86px;
+  margin-top: 38px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-container .container2 .p3 {
+  color: #28233c;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.flex-container .container2 .p4 {
+  font-size: 13px;
+  color: #ada9bf;
+  text-align: center;
+  margin-top: -18px;
+}
+
+.flex-container .container2 .btn {
+  text-align: center;
+  width: 140px;
+  height: 40px;
+  background: transparent linear-gradient(255deg, #501769 0%, #382780 100%);
+  border-radius: 2px;
+  color: #ffff;
+  border: none;
+  opacity: 1;
+  margin-top: 40px;
+  position: absolute;
+  left: 810px;
+}
+
+/* 
+.flex-container . .p3 {
+  font-size: 23px;
+  line-height: 0;
+}
+.flex-container .login-form .p4 {
+  font-size: 14px;
+  color: #b0b3b9;
+}
+
+
+.flex-container .login-form .container2 {
+    overflow: hidden;
+  }
+  .flex-container .login-form .p5 {
+    position: absolute;
+    top: 176px;
+    font-size: 13px;
+  }
+  
+  .flex-container .login-form .p6 {
+    font-size: 13px;
+    position: absolute;
+    top: 254px;
+  }
+  .flex-container .login-form .p7 {
+    font-size: 13px;
+    position: absolute;
+    top: 320px;
+  }
+  
+  .flex-container .login-form .p8 {
+    font-size: 13px;
+    float: left;
+    margin-top: -32px;
+  }
+  
+  #togglePassword {
+    position: absolute;
+    top: 353px;
+    left: 1005px;
+  }
+  .flex-container .login-form .choose {
+    width: 100%;
+    float: left;
+    margin-top: -28px;
+    font-size: 13px;
+    padding-bottom: 7px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #b0b3b9;
+  }
+  .flex-container .login-form .container2 input {
+    width: 100%;
+    margin-top: 18px;
+    font-size: 13px;
+    padding-bottom: 7px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #b0b3b9;
+  }
+  
+  
+  .flex-container .login-form button {
+    float: left;
+    color: #fff;
+    width: 100%;
+    height: 8%;
+    margin-top: 29px;
+    font-size: 14px;
+    padding: 12px 35px;
+    background: transparent linear-gradient(248deg, #501769 0%, #382780 100%) 0%
+      0% no-repeat padding-box;
+    border: 0;
+  }
+  
+ */

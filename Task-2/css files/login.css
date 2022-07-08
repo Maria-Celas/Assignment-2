@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-image: url("../images/background_image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Poppins, sans-serif;
+}
+
+.flex-container {
+  margin: 0 auto;
+  margin-top: 45px;
+  width: 62%;
+  height: 567px;
+  background: #ffffff;
+  overflow: hidden;
+  display: flex;
+  flex: 1 1 100%;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+@media (max-width: 980px) {
+  .flex-container {
+    flex-flow: wrap;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+.flex-container div {
+  height: auto;
+}
+
+.flex-container .banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/banner.png");
+  overflow: hidden;
+  width: 50%;
+}
+
+.flex-container .banner .container1 {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.flex-container .banner .container1 .p1 {
+  color: white;
+  top: 348px;
+  left: 101px;
+  font-weight: 900;
+  font-size: 2.75rem;
+  margin-top: 208px;
+}
+
+.flex-container .banner .container1 .p2 {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: -52px;
+}
+
+.flex-container .banner .container1 .logo {
+  margin-top: 72px;
+}
+
+.flex-container .login-form {
+  padding: 74px;
+  overflow: hidden;
+  width: 35%;
+}
+
+@media (max-width: 980px) {
+  .flex-container .login-form {
+    width: 100%;
+  }
+}
+
+.flex-container .login-form .p3 {
+  font-size: 23px;
+  color: #28233c;
+  font-weight: medium;
+  line-height: 0;
+}
+
+.flex-container .login-form .p4 {
+  font-size: 14px;
+  color: #b0b3b9;
+}
+
+.flex-container .login-form .container2 {
+  overflow: hidden;
+}
+
+.flex-container .login-form .p5 {
+  position: absolute;
+  top: 226px;
+  margin-bottom: 66px;
+  font-size: 13px;
+}
+
+#usererror {
+  font-size: 10px;
+  color: red;
+  font-weight: 400;
+  display: none;
+  /* position: absolute;
+  top: 281px;
+  left: 747px; */
+}
+
+#userempty {
+  font-size: 10px;
+  color: red;
+  font-weight: 400;
+  display: none;
+  /* position: absolute;
+  top: 281px;
+  left: 747px; */
+}
+
+.flex-container .login-form .p6 {
+  font-size: 13px;
+  position: absolute;
+  top: 307px;
+}
+
+#passworderror {
+  font-size: 10px;
+  color: red;
+  font-weight: 400;
+  display: none;
+  /* position: absolute;
+  top: 365px;
+  left: 747px; */
+}
+
+#passwordempty {
+  font-size: 10px;
+  color: red;
+  font-weight: 400;
+  display: none;
+  /* position: absolute;
+  top: 365px;
+  left: 747px; */
+}
+
+.flex-container .login-form .container2 .login-user {
+  width: 100%;
+  margin-top: 28px;
+  font-size: 14px;
+  padding-bottom: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #b0b3b9;
+}
+
+.login {
+  width: 90px;
+  height: 30px;
+  margin-top: 18px;
+  font-size: 14px;
+  background: transparent linear-gradient(258deg, #501769 0%, #382780 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 2px;
+  color: #ffff;
+  border: none;
+  opacity: 1;
+}
+
+.flex-container .login-form .check-box {
+  font-size: 12px;
+  left: 750px;
+  margin-top: -38px;
+  float: left;
+  top: 369px;
+  color: #363147;
+}
+
+.flex-container .login-form .forgot-password {
+  font-size: 12px;
+  text-decoration: none;
+  color: #363147;
+  top: 369px;
+  float: right;
+  margin-top: -38px;
+  left: 912px;
+}
+
+.flex-container .login-form .sign-up {
+  font-size: 12px;
+  width: 302px;
+  margin-top: 20px;
+  float: left;
+}
+
+.flex-container .login-form .sign-up a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #3f2985;
+}
+
+.flex-container .login-form button {
+  float: left;
+  color: #fff;
+  width: 41%;
+  height: 8%;
+  margin-top: 13px;
+  font-size: 14px;
+  padding: 12px 35px;
+  background: transparent linear-gradient(248deg, #501769 0%, #382780 100%) 0%
+    0% no-repeat padding-box;
+  border: 0;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css files/signup.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+    
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    /> -->
+
+
+
+    <title>Sign Up Page</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <!-- *************************** PART 1 *************************************** -->
+      <div class="banner">
+        <div class="container1">
+          <p class="p1">Our Philosophy</p>
+          <p class="p2">Attention. Always.</p>
+          <img
+            class="aspire-logo"
+            src="./images/Image 56.png"
+            alt="Aspire Systems logo"
+          />
+        </div>
+      </div>
+      <!-- *************************** PART 2 *************************************** -->
+      <div class="login-form">
+        <p class="p3">Hello!</p>
+        <p class="p4">Employee Portal Sign Up</p>
+<form action="" method="post">
+    <div class="container2">
+        <label class="p5" for="uname">Username</label><br /> 
+        
+        <!--  -->
+        <input id="usernames"
+          type="text"
+          class="login-user"
+          placeholder="Username "
+          name="uname"
+    
+        /><br />
+        <span id="usercheck"></span>
+
+        <label class="p6" for="email">Email</label><br />
+       
+        <input id="mail-id"
+          type="text"
+          class="login-user"
+          placeholder="user@aspiresys.com"
+          name="email"
+        /><br />
+        <span id="emailcheck"></span>
+
+        <label id="password-check" class="p7" for="psw">Password</label><br />
+        
+        <input
+          id="id_password"
+          class="login-user"
+          type="password"
+          placeholder="***************"
+          name="psw"
+        />
+        <span id="passwordcheck"></span>
+
+        <i class="far fa-eye" id="togglePassword"></i>
+      </div>
+      <br /><br />
+      <label class="p8" for="service-line">Service Line</label><br />
+      <select class="choose" name="service-line">
+        <option value="Select">Select</option>
+        <option value="Development">Development</option>
+        <option value="Testing">Testing</option>
+        <option value="Data Analytics">Data Analytics</option>
+        <option value="HR">HR</option>
+      </select>
+
+      <button type="submit" id="submit_form">Create your account</button>
+    </div>
+</form>
+
+        
+    </div>
+
+
+    <script src="signup.js"></script>
+  </body>
+</html>

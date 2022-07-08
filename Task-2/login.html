@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/
+    jquery/3.3.1/jquery.min.js"></script> -->
+
+    <link rel="stylesheet" href="./css files/login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <!-- *************************** PART 1 *************************************** -->
+      <div class="banner">
+        <div class="container1">
+          <p class="p1">Our Philosophy</p>
+          <p class="p2">Attention. Always.</p>
+          <img
+            class="logo"
+            src="./images/Image 56.png"
+            alt="Aspire Systems logo"
+          />
+        </div>
+      </div>
+
+      <!-- *************************** PART 2 *************************************** -->
+      <div class="login-form">
+        <p class="p3"><b>Hello!</b></p>
+        <p class="p4">Employee Portal Login</p>
+
+        <div class="container2">
+          <label class="p5" for="uname">Username</label><br />
+          <input
+            id="username_id"
+            type="text"
+            class="login-user"
+            placeholder="example@aspiresys.com "
+            name="uname"
+          /><br />
+          <span id="usererror"
+            >**Length must be more than 2 and less than 11</span
+          >
+          <span id="userempty">**Username must not be empty</span>
+          <label class="p6" for="psw">Password</label><br />
+          <input
+            id="password_id"
+            class="login-user"
+            type="password"
+            placeholder="***************"
+            name="psw"
+          />
+          <span id="passworderror"
+            >**Length must be more than 4 and less than 13
+          </span>
+          <span id="passwordempty">**Password must not be empty</span>
+        </div>
+
+        <br /><br /><br />
+
+        <label class="check-box">
+          <input type="checkbox" class="login-checkbox" name="remember" />
+          Remember me
+        </label>
+        <a href="#" class="forgot-password">Forgot Password?</a>
+        <button class="login" type="submit" onclick="validation()">
+          Sign In
+        </button>
+
+        <!-- <input
+            class="submit-form"
+            type="submit"
+            name="btn-register"
+            value="Sign In"
+          /> -->
+
+        <span class="sign-up"
+          >Don’t have an account?&nbsp;<a href="signup.html">Sign Up</a></span
+        >
+      </div>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>
