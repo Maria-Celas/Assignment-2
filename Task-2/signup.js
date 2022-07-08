@@ -48,12 +48,11 @@ $(document).ready(function () {
       let usernameValue = $("#usernames").val();
       if (usernameValue.length == "") {
         $("#usercheck").show();
-
+        $("#usercheck").html("**Username cannot be empty");
         return false;
       } else if (usernameValue.length < 3 || usernameValue.length > 10) {
         $("#usercheck").show();
-        $("#usercheck").html("**length of username must be between 3 and 10");
-        
+        $("#usercheck").html("**length of username must be between 3 and 10");        
         return false;
       } else {
         $("#usercheck").hide();
@@ -71,6 +70,7 @@ function validateEmail() {
   var email_regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
   if (emailValue.length == "") {
     $("#emailcheck").show();
+    $("#emailcheck").html("**Email id cannot be empty");
     return false;
   } else if (!emailValue.match(email_regex) ){
     $("#emailcheck").show();
@@ -91,7 +91,7 @@ function validateEmail() {
    let passwordValue = $("#id_password").val();
    if (passwordValue.length == "") {
      $("#passwordcheck").show();
-    
+     $("#passwordcheck").html("**Password cannot be empty");
      return false;
    }
    if (passwordValue.length < 3 || passwordValue.length > 10) {
